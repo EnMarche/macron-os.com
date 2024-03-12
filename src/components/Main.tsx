@@ -17,7 +17,7 @@ const Main: React.FC = () => {
                 <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
                     {/* Form content */}
                     <div className="mb-4">
-                        <label className="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
+                        <label className="block text-blue-300 py-2 font-bold mb-2" htmlFor="emailaddress">
                             This form is useless just like you habibi
                         </label>
                         <input
