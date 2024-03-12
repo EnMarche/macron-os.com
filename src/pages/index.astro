@@ -1,0 +1,51 @@
+---
+import Header from "../components/Header";
+import Main from "../components/Main";
+import Footer from "../components/Footer";
+import Example from "../components/index";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Macron OS</title>
+	</head>
+
+	<body>
+		<style is:global>
+			@font-face {
+				font-family: "Tangerine";
+				src: url("/fonts/Tangerine/Tangerine-Regular.ttf") format("ttf");
+			}
+
+			@font-face {
+				font-family: "Are You Serious";
+				src: url("/fonts/Are_You_Serious/AreYouSerious-Regular.ttf")
+					format("ttf");
+			}
+
+			@font-face {
+				font-family: "Comic";
+				src: url("/fonts/comic-sans-ms/COMIC.ttf") format("ttf");
+			}
+		</style>
+		<Example client:load />
+	</body>
+</html>
+
+<!--
+		<div
+			class="leading-normal tracking-normal text-indigo-400 bg-cover bg-fixed"
+			style={{ backgroundImage: "url('/header.png')" }}
+		>
+			<div class="h-full">
+				<Header />
+				<Main client:load />
+				<Footer />
+			</div>
+		</div>
+	</body>
+</html>
+-->
